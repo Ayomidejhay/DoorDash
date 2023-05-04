@@ -1,0 +1,343 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ font-size: 16px;
+ font-family: 'Open Sans', sans-serif;
+ overflow-x: hidden;
+}
+h1,h2,h3,h4,h5{
+ font-family: 'Roboto', sans-serif;
+}
+h1{
+ font-size: 2.6em;
+ font-weight: 700;
+}
+h2{
+ font-size: 2em;
+ line-height: 40px;
+ font-weight: 700;
+ padding-bottom: 20px;
+}
+h3{
+ font-size: 1.8em;
+ line-height: 40px;
+}
+a{
+ text-decoration: none;
+}
+.hero-section{
+ min-width: 100vw;
+ min-height: 100vh;
+ background-image: url(./images/top-background\ \(1\).jpg);
+ background-size: contain; 
+ background-repeat: no-repeat;
+}
+header{
+ padding-top: 30px;
+ display: flex;
+ justify-content: end;
+ padding-right: 50px;
+}
+.in{
+ width: 400px;
+ background-color: white;
+ padding: 10px;
+ border-radius: 20px;
+ font-weight: 500;
+ color: rgb(255, 48, 8);
+}
+.up{
+ width: 400px;
+ background-color: white;
+ padding: 10px;
+ border-radius: 20px;
+ color: black;
+ font-weight: 500;
+}
+.small{
+ display: none;
+}
+.hero-text{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ text-align: center;
+ height: 100vh;
+ margin-top: -70px;
+ font-weight: 500px;
+ position: relative;
+}
+.hero-text h1 span{
+ color: white;
+}
+.input-address{
+ width: 300px;
+ background-color: white;
+ padding: 5px 5px 5px 10px;
+ border-radius: 20px;
+ margin-top: 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.fa-location-dot{
+ font-size: 20px;
+}
+
+input{
+ border: none;
+ color: rgba(0, 0, 0, 0.7);
+ width: 200px;
+}
+input:focus{
+ outline: none;
+}
+.button{
+ margin-top: 15px;
+ padding:7px 10px;
+ border-radius: 20px;
+ border: white;
+ background-color: white;
+}
+.button a span{
+ padding: 0px 5px;
+}
+.hero-text button a{
+ color: black;
+}
+.hero-text button:hover{
+ cursor: pointer;
+}
+.dasher-section, .convenience-section, .opportunity-section{
+ margin: 100px 150px;
+}
+.section-container{
+ display: flex;
+ justify-content: space-between;
+}
+.img-section{
+ padding: 50px;
+ text-align: center;
+}
+.img-section h2{
+ padding:20px;
+ font-weight: 600;
+}
+.icon{
+ width: 200px;
+}
+.img-section a{
+ line-height: 23px;
+ color: black;
+}
+.img-link{
+ padding-top: 20px;
+}
+.img-link a{
+ color: rgb(255, 48, 8);
+ font-weight: 400;
+}
+.arrow{
+ background-color:rgb(255, 48, 8);
+ padding: 5px 8px;
+ border-radius: 20px;
+}
+.restaurant-section{
+ margin: 0px 150px;
+}
+.restaurant-container,.convenience-container,.opportunity-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.restaurant-text,.convenience-text,.opportunity-text{
+ padding-right: 50px;
+}
+.restaurant-text h4{
+ padding: 20px 0;
+}
+.restaurant-text p,.dashapp-text p,.convenience-text p,.opportunity-text p,.grow-text p{
+ line-height: 25px;
+}
+button{
+ margin-top: 20px;
+ padding: 10px 15px;
+ border-radius: 20px;
+ background-color: rgb(255, 48, 8);
+ border: rgb(255, 48, 8);
+}
+button a{
+ color: white;
+ font-weight: 700;
+}
+.dashapp-section,.grow-section{
+ background-color: rgb(254, 241, 238);
+ padding: 100px 150px;
+ margin-top: -50px;
+}
+.dashapp-container,.grow-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.dashapp-text,.grow-text{
+ padding-left: 100px;
+}
+.help-section{
+ background-color: rgb(254, 241, 238);
+ padding: 100px 150px 0px 150px;
+ margin-top: -150px;
+}
+.help-section>h2{
+ text-align: center;
+ padding-bottom: 50px;
+}
+.pick{
+ width: 550px;
+}
+.help-container{
+ display:grid ;
+ grid-template-columns: auto auto;
+ column-gap: 100px;
+ justify-content: space-between;
+}
+.column{
+ padding: 50px 0px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.column h2{
+ text-align: center;
+ padding: 30px;
+}
+.column p{
+ text-align: center;
+}
+.column button{
+ width: 200px;
+}
+#caution{
+ padding-top: 20px;
+}
+.col{
+ padding-bottom:15px ;
+}
+.opportunity-section > h2{
+ text-align: center;
+ padding-bottom: 70px;
+}
+.grow-section{
+ margin-top: -150px;
+}
+footer{
+ background-color: rgb(25, 25, 25);
+ color: rgba(255, 255, 255, 0.6);
+ padding: 100px 250px 0px 250px;
+ line-height: 2rem;
+ font-size: 12px;
+}
+footer a{
+ color: rgba(255, 255, 255, 0.6);
+ transition: 0.5s ease-in;
+}
+footer h4{
+ color: white;
+ padding: 20px 0px;
+}
+.col1,.col2,.col3,.col4,.col5,.cols1,.cols2,.cols3{
+ display: flex;
+ flex-direction: column;
+}
+.in-city,.in-cuisine,.text{
+ display: flex;
+ justify-content: space-between;
+ flex-basis: 50%;
+}
+.footer-container1{
+ display: flex;
+ justify-content: space-between;
+}
+.col2,.col3,.col5{
+padding: 0rem 0rem 0rem 8rem;
+}
+.col4 a,.col5 a{
+ text-transform: capitalize;
+}
+.footer-container2{
+ margin-top: 50px;
+ display: flex;
+}
+.container3{
+ font-size: 12px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 50px 0px;
+}
+.container3 button{
+ background-color: white;
+ margin-top: 0px;
+}
+.socials i{
+ padding: 0px 10px;
+ transition: 0.5s ease-in;
+}
+.container3 img{
+ width: 50px;
+}
+.ico{
+ margin-top: 30px;
+ position: absolute;
+ right: 200px;
+}
+.icon1,.icon2{
+ background-color: rgb(77, 77, 77);
+ display: flex;
+ width: 200px;
+ border-radius: 10px;
+ padding: 5px 7px;
+ line-height: 1.1rem;
+ text-align: center;
+ justify-content: space-around;
+}
+.icon1 i,.icon2 i{
+ font-size: 30px;
+ transition: 0.5s ease-in;
+}
+.icon2{
+ margin-top: 10px;
+ transition: 0.5s ease-in;
+}
+.icon1{
+ transition: 0.5s ease-in;
+}
+.ico-text{
+ text-align: left;
+}
+.ico-text:first-child{
+ text-transform: uppercase;
+}
+.google{
+ text-transform: capitalize;
+}
+#google{
+ text-transform: uppercase;
+}
+footer a:hover{
+ color: white;
+ text-decoration:underline ;
+}
+.icon1:hover,.icon2:hover{
+ color: white;
+ cursor: pointer;
+}
+.socials i:hover{
+ color: white;
+ cursor: pointer;
+}
+
